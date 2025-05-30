@@ -7,5 +7,6 @@ router.post("/", checkToken, orderController.createOrder);
 router.get("/", checkToken, orderController.getUserOrders);
 router.get("/admin", checkToken, checkAdmin, orderController.getAllOrders);
 router.put("/updateOrderDelivery/:id", checkToken, checkAdmin, orderController.updateOrderDelivery);
+router.put("/cancelOrder/:id", checkToken, checkAdmin, orderController.cancelOrder);
 
 module.exports = router;
