@@ -8,7 +8,6 @@ exports.createPaymentIntent = async (req, res) => {
             return res.status(400).json({ error: "Cart is empty" });
         }
 
-        // Calculate total
         const total = cartItems.reduce((acc, item) => {
             const price = item.product?.price || 0;
             const discount = item.product?.discount || 0;
@@ -17,7 +16,7 @@ exports.createPaymentIntent = async (req, res) => {
         }, 0);
 
         const paymentIntent = await stripe.paymentIntents.create({
-            amount: Math.round(total * 100), // in cents
+            amount: Math.round(total * 100), 
             currency: "usd",
             metadata: {
                 integration_check: "accept_a_payment",

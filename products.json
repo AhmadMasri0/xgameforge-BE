@@ -1,0 +1,1803 @@
+
+[
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "description": "One of the best-selling games of the decade.",
+      "images": [
+        {
+          "url": "https://cdn.cdkeys.com/the-witcher-3-wild-hunt-goty-pc-cover.jpg",
+          "alt": "The Witcher 3 cover"
+        }
+      ],
+      "price": 203.38,
+      "discount": 30,
+      "amount": 19,
+      "category": "Other",
+      "platform": "PS5",
+      "brand": "Razer",
+      "isFeatured": false,
+      "rating": 2.9
+    },
+    {
+      "name": "PlayStation 5 Console",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/619BkvKW35L._AC_SX522_.jpg",
+          "alt": "PlayStation 5 Console"
+        }
+      ],
+      "price": 73.27,
+      "discount": 30,
+      "amount": 51,
+      "category": "Console",
+      "platform": "Other",
+      "brand": "Ubisoft",
+      "isFeatured": true,
+      "rating": 0.0
+    },
+    {
+      "name": "Nintendo Switch",
+      "description": "One of the best-selling games of the decade.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61-PblYntsL._AC_SY450_.jpg",
+          "alt": "Nintendo Switch"
+        }
+      ],
+      "price": 492.46,
+      "discount": 20,
+      "amount": 88,
+      "category": "Console",
+      "platform": "PS4",
+      "brand": "Sony",
+      "isFeatured": false,
+      "rating": 3.3
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://cdn.cdkeys.com/the-witcher-3-wild-hunt-goty-pc-cover.jpg",
+          "alt": "The Witcher 3 cover"
+        }
+      ],
+      "price": 476.93,
+      "discount": 50,
+      "amount": 11,
+      "category": "Accessory",
+      "platform": "PS4",
+      "brand": "Sony",
+      "isFeatured": true,
+      "rating": 1.0
+    },
+    {
+      "name": "Halo Infinite",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Halo_Infinite.png",
+          "alt": "Halo Infinite Cover"
+        }
+      ],
+      "price": 246.1,
+      "discount": 20,
+      "amount": 66,
+      "category": "Merch",
+      "platform": "Other",
+      "brand": "Sony",
+      "isFeatured": false,
+      "rating": 0.7
+    },
+    {
+      "name": "Fortnite V-Bucks Card",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/81w+3yN2gkL._AC_SL1500_.jpg",
+          "alt": "Fortnite VBucks"
+        }
+      ],
+      "price": 49.51,
+      "discount": 20,
+      "amount": 22,
+      "category": "Game",
+      "platform": "All",
+      "brand": "Razer",
+      "isFeatured": false,
+      "rating": 1.9
+    },
+    {
+      "name": "Razer Kraken Headset",
+      "description": "One of the best-selling games of the decade.",
+      "images": [
+        {
+          "url": "https://assets2.razerzone.com/images/pnx.assets/45e26df6f47cf9a3762c508d57f075e5/razer-kraken-gallery-1.png",
+          "alt": "Razer Kraken"
+        }
+      ],
+      "price": 219.79,
+      "discount": 20,
+      "amount": 89,
+      "category": "Other",
+      "platform": "All",
+      "brand": "Microsoft",
+      "isFeatured": true,
+      "rating": 3.2
+    },
+    {
+      "name": "Elden Ring",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
+          "alt": "Elden Ring Cover"
+        }
+      ],
+      "price": 432.58,
+      "discount": 0,
+      "amount": 36,
+      "category": "Accessory",
+      "platform": "Other",
+      "brand": "Nintendo",
+      "isFeatured": false,
+      "rating": 4.1
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "description": "One of the best-selling games of the decade.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Assassin%27s_Creed_Valhalla_cover.jpg",
+          "alt": "AC Valhalla"
+        }
+      ],
+      "price": 227.74,
+      "discount": 0,
+      "amount": 32,
+      "category": "Game",
+      "platform": "All",
+      "brand": "Logitech",
+      "isFeatured": true,
+      "rating": 1.4
+    },
+    {
+      "name": "Gaming Chair X1000",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/71xBl8cEOHL._AC_SL1500_.jpg",
+          "alt": "Gaming Chair X1000"
+        }
+      ],
+      "price": 24.66,
+      "discount": 30,
+      "amount": 56,
+      "category": "Other",
+      "platform": "XBox",
+      "brand": "Logitech",
+      "isFeatured": true,
+      "rating": 2.1
+    },
+    {
+      "name": "Halo Infinite",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Halo_Infinite.png",
+          "alt": "Halo Infinite Cover"
+        }
+      ],
+      "price": 488.88,
+      "discount": 30,
+      "amount": 11,
+      "category": "Merch",
+      "platform": "PS4",
+      "brand": "Nintendo",
+      "isFeatured": true,
+      "rating": 0.3
+    },
+    {
+      "name": "Apex Legends T-Shirt",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61l-UOxqN5L._AC_UX466_.jpg",
+          "alt": "Apex T-Shirt"
+        }
+      ],
+      "price": 426.96,
+      "discount": 30,
+      "amount": 52,
+      "category": "Other",
+      "platform": "PS5",
+      "brand": "Razer",
+      "isFeatured": false,
+      "rating": 2.3
+    },
+    {
+      "name": "Halo Infinite",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Halo_Infinite.png",
+          "alt": "Halo Infinite Cover"
+        }
+      ],
+      "price": 228.84,
+      "discount": 50,
+      "amount": 53,
+      "category": "Accessory",
+      "platform": "PS5",
+      "brand": "Microsoft",
+      "isFeatured": false,
+      "rating": 2.7
+    },
+    {
+      "name": "Nintendo Switch",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61-PblYntsL._AC_SY450_.jpg",
+          "alt": "Nintendo Switch"
+        }
+      ],
+      "price": 457.6,
+      "discount": 0,
+      "amount": 78,
+      "category": "Other",
+      "platform": "PC",
+      "brand": "Ubisoft",
+      "isFeatured": true,
+      "rating": 2.4
+    },
+    {
+      "name": "PlayStation 5 Console",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/619BkvKW35L._AC_SX522_.jpg",
+          "alt": "PlayStation 5 Console"
+        }
+      ],
+      "price": 140.29,
+      "discount": 0,
+      "amount": 44,
+      "category": "Accessory",
+      "platform": "PC",
+      "brand": "Logitech",
+      "isFeatured": true,
+      "rating": 1.1
+    },
+    {
+      "name": "God of War Ragnarok",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9a/God_of_War_Ragnar%C3%B6k_cover.jpg",
+          "alt": "God of War Ragnarok"
+        }
+      ],
+      "price": 206.11,
+      "discount": 30,
+      "amount": 61,
+      "category": "Merch",
+      "platform": "PC",
+      "brand": "Razer",
+      "isFeatured": false,
+      "rating": 0.5
+    },
+    {
+      "name": "Elden Ring",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
+          "alt": "Elden Ring Cover"
+        }
+      ],
+      "price": 382.72,
+      "discount": 50,
+      "amount": 85,
+      "category": "Game",
+      "platform": "PS5",
+      "brand": "Logitech",
+      "isFeatured": false,
+      "rating": 2.5
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Assassin%27s_Creed_Valhalla_cover.jpg",
+          "alt": "AC Valhalla"
+        }
+      ],
+      "price": 420.14,
+      "discount": 50,
+      "amount": 59,
+      "category": "Game",
+      "platform": "XBox",
+      "brand": "Nintendo",
+      "isFeatured": false,
+      "rating": 3.5
+    },
+    {
+      "name": "God of War Ragnarok",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9a/God_of_War_Ragnar%C3%B6k_cover.jpg",
+          "alt": "God of War Ragnarok"
+        }
+      ],
+      "price": 85.64,
+      "discount": 10,
+      "amount": 2,
+      "category": "Merch",
+      "platform": "PC",
+      "brand": "Sony",
+      "isFeatured": true,
+      "rating": 3.6
+    },
+    {
+      "name": "PlayStation 5 Console",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/619BkvKW35L._AC_SX522_.jpg",
+          "alt": "PlayStation 5 Console"
+        }
+      ],
+      "price": 203.08,
+      "discount": 0,
+      "amount": 1,
+      "category": "Accessory",
+      "platform": "All",
+      "brand": "Sony",
+      "isFeatured": false,
+      "rating": 2.3
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://cdn.cdkeys.com/the-witcher-3-wild-hunt-goty-pc-cover.jpg",
+          "alt": "The Witcher 3 cover"
+        }
+      ],
+      "price": 389.03,
+      "discount": 0,
+      "amount": 39,
+      "category": "Game",
+      "platform": "PS4",
+      "brand": "Sony",
+      "isFeatured": true,
+      "rating": 3.5
+    },
+    {
+      "name": "Xbox Wireless Controller",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/51VwsVJt3uL._AC_SX679_.jpg",
+          "alt": "Xbox Controller"
+        }
+      ],
+      "price": 298.4,
+      "discount": 0,
+      "amount": 67,
+      "category": "Game",
+      "platform": "PS5",
+      "brand": "Razer",
+      "isFeatured": true,
+      "rating": 3.7
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "description": "One of the best-selling games of the decade.",
+      "images": [
+        {
+          "url": "https://cdn.cdkeys.com/the-witcher-3-wild-hunt-goty-pc-cover.jpg",
+          "alt": "The Witcher 3 cover"
+        }
+      ],
+      "price": 161.12,
+      "discount": 10,
+      "amount": 76,
+      "category": "Console",
+      "platform": "Other",
+      "brand": "Razer",
+      "isFeatured": true,
+      "rating": 5.0
+    },
+    {
+      "name": "Razer Kraken Headset",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://assets2.razerzone.com/images/pnx.assets/45e26df6f47cf9a3762c508d57f075e5/razer-kraken-gallery-1.png",
+          "alt": "Razer Kraken"
+        }
+      ],
+      "price": 455.42,
+      "discount": 30,
+      "amount": 95,
+      "category": "Merch",
+      "platform": "All",
+      "brand": "Nintendo",
+      "isFeatured": false,
+      "rating": 0.9
+    },
+    {
+      "name": "Apex Legends T-Shirt",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61l-UOxqN5L._AC_UX466_.jpg",
+          "alt": "Apex T-Shirt"
+        }
+      ],
+      "price": 378.49,
+      "discount": 30,
+      "amount": 82,
+      "category": "Other",
+      "platform": "PS4",
+      "brand": "Ubisoft",
+      "isFeatured": true,
+      "rating": 1.0
+    },
+    {
+      "name": "Nintendo Switch",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61-PblYntsL._AC_SY450_.jpg",
+          "alt": "Nintendo Switch"
+        }
+      ],
+      "price": 481.87,
+      "discount": 20,
+      "amount": 17,
+      "category": "Game",
+      "platform": "XBox",
+      "brand": "Logitech",
+      "isFeatured": false,
+      "rating": 2.3
+    },
+    {
+      "name": "Logitech G Pro Mouse",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://resource.logitech.com/w_800,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/gaming/g-pro-wireless-mouse/g-pro-wireless-gallery-1.png?v=1",
+          "alt": "Logitech G Pro"
+        }
+      ],
+      "price": 338.77,
+      "discount": 0,
+      "amount": 29,
+      "category": "Merch",
+      "platform": "PS5",
+      "brand": "Nintendo",
+      "isFeatured": false,
+      "rating": 1.3
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://cdn.cdkeys.com/the-witcher-3-wild-hunt-goty-pc-cover.jpg",
+          "alt": "The Witcher 3 cover"
+        }
+      ],
+      "price": 373.5,
+      "discount": 30,
+      "amount": 74,
+      "category": "Merch",
+      "platform": "Other",
+      "brand": "Razer",
+      "isFeatured": true,
+      "rating": 0.6
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Assassin%27s_Creed_Valhalla_cover.jpg",
+          "alt": "AC Valhalla"
+        }
+      ],
+      "price": 408.02,
+      "discount": 0,
+      "amount": 94,
+      "category": "Console",
+      "platform": "PC",
+      "brand": "Razer",
+      "isFeatured": true,
+      "rating": 0.7
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+          "alt": "Cyberpunk 2077"
+        }
+      ],
+      "price": 310.02,
+      "discount": 10,
+      "amount": 59,
+      "category": "Other",
+      "platform": "XBox",
+      "brand": "Ubisoft",
+      "isFeatured": false,
+      "rating": 2.9
+    },
+    {
+      "name": "PlayStation 5 Console",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/619BkvKW35L._AC_SX522_.jpg",
+          "alt": "PlayStation 5 Console"
+        }
+      ],
+      "price": 245.7,
+      "discount": 50,
+      "amount": 62,
+      "category": "Game",
+      "platform": "XBox",
+      "brand": "Sony",
+      "isFeatured": false,
+      "rating": 3.0
+    },
+    {
+      "name": "Halo Infinite",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Halo_Infinite.png",
+          "alt": "Halo Infinite Cover"
+        }
+      ],
+      "price": 499.51,
+      "discount": 0,
+      "amount": 39,
+      "category": "Console",
+      "platform": "PS5",
+      "brand": "Ubisoft",
+      "isFeatured": true,
+      "rating": 2.6
+    },
+    {
+      "name": "Nintendo Switch",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61-PblYntsL._AC_SY450_.jpg",
+          "alt": "Nintendo Switch"
+        }
+      ],
+      "price": 219.5,
+      "discount": 50,
+      "amount": 25,
+      "category": "Other",
+      "platform": "All",
+      "brand": "Ubisoft",
+      "isFeatured": false,
+      "rating": 1.5
+    },
+    {
+      "name": "Apex Legends T-Shirt",
+      "description": "One of the best-selling games of the decade.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61l-UOxqN5L._AC_UX466_.jpg",
+          "alt": "Apex T-Shirt"
+        }
+      ],
+      "price": 367.64,
+      "discount": 30,
+      "amount": 91,
+      "category": "Console",
+      "platform": "PS5",
+      "brand": "Microsoft",
+      "isFeatured": true,
+      "rating": 0.0
+    },
+    {
+      "name": "Elden Ring",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
+          "alt": "Elden Ring Cover"
+        }
+      ],
+      "price": 322.63,
+      "discount": 30,
+      "amount": 96,
+      "category": "Accessory",
+      "platform": "Other",
+      "brand": "Microsoft",
+      "isFeatured": false,
+      "rating": 4.0
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Assassin%27s_Creed_Valhalla_cover.jpg",
+          "alt": "AC Valhalla"
+        }
+      ],
+      "price": 63.95,
+      "discount": 50,
+      "amount": 21,
+      "category": "Accessory",
+      "platform": "XBox",
+      "brand": "Microsoft",
+      "isFeatured": false,
+      "rating": 1.4
+    },
+    {
+      "name": "Logitech G Pro Mouse",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://resource.logitech.com/w_800,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/gaming/g-pro-wireless-mouse/g-pro-wireless-gallery-1.png?v=1",
+          "alt": "Logitech G Pro"
+        }
+      ],
+      "price": 257.65,
+      "discount": 50,
+      "amount": 84,
+      "category": "Game",
+      "platform": "All",
+      "brand": "Logitech",
+      "isFeatured": true,
+      "rating": 3.1
+    },
+    {
+      "name": "Xbox Wireless Controller",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/51VwsVJt3uL._AC_SX679_.jpg",
+          "alt": "Xbox Controller"
+        }
+      ],
+      "price": 19.79,
+      "discount": 10,
+      "amount": 7,
+      "category": "Merch",
+      "platform": "PS5",
+      "brand": "Microsoft",
+      "isFeatured": true,
+      "rating": 4.2
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "description": "One of the best-selling games of the decade.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+          "alt": "Cyberpunk 2077"
+        }
+      ],
+      "price": 353.43,
+      "discount": 20,
+      "amount": 83,
+      "category": "Accessory",
+      "platform": "PC",
+      "brand": "Razer",
+      "isFeatured": true,
+      "rating": 4.6
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "description": "One of the best-selling games of the decade.",
+      "images": [
+        {
+          "url": "https://cdn.cdkeys.com/the-witcher-3-wild-hunt-goty-pc-cover.jpg",
+          "alt": "The Witcher 3 cover"
+        }
+      ],
+      "price": 289.43,
+      "discount": 20,
+      "amount": 20,
+      "category": "Game",
+      "platform": "PS5",
+      "brand": "Nintendo",
+      "isFeatured": false,
+      "rating": 0.2
+    },
+    {
+      "name": "Spider-Man: Miles Morales",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/d/d2/Spider-Man_Miles_Morales_cover.jpg",
+          "alt": "Miles Morales"
+        }
+      ],
+      "price": 235.01,
+      "discount": 0,
+      "amount": 91,
+      "category": "Accessory",
+      "platform": "PS5",
+      "brand": "Razer",
+      "isFeatured": true,
+      "rating": 4.8
+    },
+    {
+      "name": "Spider-Man: Miles Morales",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/d/d2/Spider-Man_Miles_Morales_cover.jpg",
+          "alt": "Miles Morales"
+        }
+      ],
+      "price": 439.07,
+      "discount": 0,
+      "amount": 71,
+      "category": "Console",
+      "platform": "PC",
+      "brand": "Razer",
+      "isFeatured": false,
+      "rating": 1.8
+    },
+    {
+      "name": "Gaming Chair X1000",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/71xBl8cEOHL._AC_SL1500_.jpg",
+          "alt": "Gaming Chair X1000"
+        }
+      ],
+      "price": 258.46,
+      "discount": 0,
+      "amount": 47,
+      "category": "Game",
+      "platform": "PS5",
+      "brand": "Ubisoft",
+      "isFeatured": false,
+      "rating": 1.8
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+          "alt": "Cyberpunk 2077"
+        }
+      ],
+      "price": 239.12,
+      "discount": 0,
+      "amount": 56,
+      "category": "Console",
+      "platform": "All",
+      "brand": "Sony",
+      "isFeatured": false,
+      "rating": 2.6
+    },
+    {
+      "name": "Spider-Man: Miles Morales",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/d/d2/Spider-Man_Miles_Morales_cover.jpg",
+          "alt": "Miles Morales"
+        }
+      ],
+      "price": 318.42,
+      "discount": 30,
+      "amount": 35,
+      "category": "Merch",
+      "platform": "PC",
+      "brand": "Microsoft",
+      "isFeatured": false,
+      "rating": 0.1
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Assassin%27s_Creed_Valhalla_cover.jpg",
+          "alt": "AC Valhalla"
+        }
+      ],
+      "price": 428.94,
+      "discount": 20,
+      "amount": 58,
+      "category": "Merch",
+      "platform": "All",
+      "brand": "Ubisoft",
+      "isFeatured": true,
+      "rating": 1.8
+    },
+    {
+      "name": "Halo Infinite",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Halo_Infinite.png",
+          "alt": "Halo Infinite Cover"
+        }
+      ],
+      "price": 90.66,
+      "discount": 0,
+      "amount": 68,
+      "category": "Other",
+      "platform": "PC",
+      "brand": "Microsoft",
+      "isFeatured": false,
+      "rating": 3.7
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "description": "One of the best-selling games of the decade.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Assassin%27s_Creed_Valhalla_cover.jpg",
+          "alt": "AC Valhalla"
+        }
+      ],
+      "price": 89.97,
+      "discount": 50,
+      "amount": 87,
+      "category": "Accessory",
+      "platform": "PS4",
+      "brand": "Logitech",
+      "isFeatured": false,
+      "rating": 3.6
+    },
+    {
+      "name": "Xbox Wireless Controller",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/51VwsVJt3uL._AC_SX679_.jpg",
+          "alt": "Xbox Controller"
+        }
+      ],
+      "price": 170.59,
+      "discount": 10,
+      "amount": 70,
+      "category": "Accessory",
+      "platform": "PC",
+      "brand": "Microsoft",
+      "isFeatured": true,
+      "rating": 2.1
+    },
+    {
+      "name": "Xbox Wireless Controller",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/51VwsVJt3uL._AC_SX679_.jpg",
+          "alt": "Xbox Controller"
+        }
+      ],
+      "price": 338.82,
+      "discount": 10,
+      "amount": 60,
+      "category": "Other",
+      "platform": "XBox",
+      "brand": "Nintendo",
+      "isFeatured": true,
+      "rating": 3.9
+    },
+    {
+      "name": "Steam Gift Card",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/71PLJHqkefL._AC_SY879_.jpg",
+          "alt": "Steam Gift Card"
+        }
+      ],
+      "price": 278.0,
+      "discount": 0,
+      "amount": 89,
+      "category": "Other",
+      "platform": "PS4",
+      "brand": "Logitech",
+      "isFeatured": true,
+      "rating": 0.8
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Assassin%27s_Creed_Valhalla_cover.jpg",
+          "alt": "AC Valhalla"
+        }
+      ],
+      "price": 225.26,
+      "discount": 0,
+      "amount": 14,
+      "category": "Accessory",
+      "platform": "PC",
+      "brand": "Nintendo",
+      "isFeatured": true,
+      "rating": 0.5
+    },
+    {
+      "name": "Apex Legends T-Shirt",
+      "description": "One of the best-selling games of the decade.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61l-UOxqN5L._AC_UX466_.jpg",
+          "alt": "Apex T-Shirt"
+        }
+      ],
+      "price": 415.34,
+      "discount": 0,
+      "amount": 62,
+      "category": "Console",
+      "platform": "XBox",
+      "brand": "Sony",
+      "isFeatured": true,
+      "rating": 2.2
+    },
+    {
+      "name": "Razer Kraken Headset",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://assets2.razerzone.com/images/pnx.assets/45e26df6f47cf9a3762c508d57f075e5/razer-kraken-gallery-1.png",
+          "alt": "Razer Kraken"
+        }
+      ],
+      "price": 434.87,
+      "discount": 20,
+      "amount": 17,
+      "category": "Other",
+      "platform": "XBox",
+      "brand": "Sony",
+      "isFeatured": false,
+      "rating": 4.7
+    },
+    {
+      "name": "Gaming Chair X1000",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/71xBl8cEOHL._AC_SL1500_.jpg",
+          "alt": "Gaming Chair X1000"
+        }
+      ],
+      "price": 445.36,
+      "discount": 0,
+      "amount": 43,
+      "category": "Accessory",
+      "platform": "PS4",
+      "brand": "Nintendo",
+      "isFeatured": false,
+      "rating": 1.4
+    },
+    {
+      "name": "PlayStation 5 Console",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/619BkvKW35L._AC_SX522_.jpg",
+          "alt": "PlayStation 5 Console"
+        }
+      ],
+      "price": 458.66,
+      "discount": 50,
+      "amount": 80,
+      "category": "Merch",
+      "platform": "PS4",
+      "brand": "Razer",
+      "isFeatured": true,
+      "rating": 4.6
+    },
+    {
+      "name": "Apex Legends T-Shirt",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61l-UOxqN5L._AC_UX466_.jpg",
+          "alt": "Apex T-Shirt"
+        }
+      ],
+      "price": 309.66,
+      "discount": 50,
+      "amount": 15,
+      "category": "Game",
+      "platform": "PS4",
+      "brand": "Nintendo",
+      "isFeatured": true,
+      "rating": 4.7
+    },
+    {
+      "name": "God of War Ragnarok",
+      "description": "One of the best-selling games of the decade.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9a/God_of_War_Ragnar%C3%B6k_cover.jpg",
+          "alt": "God of War Ragnarok"
+        }
+      ],
+      "price": 261.77,
+      "discount": 50,
+      "amount": 89,
+      "category": "Other",
+      "platform": "XBox",
+      "brand": "Ubisoft",
+      "isFeatured": false,
+      "rating": 4.7
+    },
+    {
+      "name": "Nintendo Switch",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61-PblYntsL._AC_SY450_.jpg",
+          "alt": "Nintendo Switch"
+        }
+      ],
+      "price": 299.39,
+      "discount": 0,
+      "amount": 98,
+      "category": "Other",
+      "platform": "All",
+      "brand": "Logitech",
+      "isFeatured": false,
+      "rating": 1.9
+    },
+    {
+      "name": "PlayStation 5 Console",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/619BkvKW35L._AC_SX522_.jpg",
+          "alt": "PlayStation 5 Console"
+        }
+      ],
+      "price": 121.92,
+      "discount": 0,
+      "amount": 61,
+      "category": "Console",
+      "platform": "PS5",
+      "brand": "Sony",
+      "isFeatured": false,
+      "rating": 4.3
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+          "alt": "Cyberpunk 2077"
+        }
+      ],
+      "price": 281.08,
+      "discount": 10,
+      "amount": 88,
+      "category": "Game",
+      "platform": "PC",
+      "brand": "Razer",
+      "isFeatured": false,
+      "rating": 3.8
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Assassin%27s_Creed_Valhalla_cover.jpg",
+          "alt": "AC Valhalla"
+        }
+      ],
+      "price": 488.18,
+      "discount": 20,
+      "amount": 20,
+      "category": "Merch",
+      "platform": "PS4",
+      "brand": "Sony",
+      "isFeatured": false,
+      "rating": 0.4
+    },
+    {
+      "name": "Razer Kraken Headset",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://assets2.razerzone.com/images/pnx.assets/45e26df6f47cf9a3762c508d57f075e5/razer-kraken-gallery-1.png",
+          "alt": "Razer Kraken"
+        }
+      ],
+      "price": 287.66,
+      "discount": 0,
+      "amount": 58,
+      "category": "Merch",
+      "platform": "PS4",
+      "brand": "Nintendo",
+      "isFeatured": true,
+      "rating": 1.8
+    },
+    {
+      "name": "Spider-Man: Miles Morales",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/d/d2/Spider-Man_Miles_Morales_cover.jpg",
+          "alt": "Miles Morales"
+        }
+      ],
+      "price": 361.61,
+      "discount": 0,
+      "amount": 92,
+      "category": "Other",
+      "platform": "PC",
+      "brand": "Microsoft",
+      "isFeatured": true,
+      "rating": 1.3
+    },
+    {
+      "name": "Steam Gift Card",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/71PLJHqkefL._AC_SY879_.jpg",
+          "alt": "Steam Gift Card"
+        }
+      ],
+      "price": 155.95,
+      "discount": 0,
+      "amount": 15,
+      "category": "Other",
+      "platform": "PC",
+      "brand": "Nintendo",
+      "isFeatured": true,
+      "rating": 3.8
+    },
+    {
+      "name": "Xbox Wireless Controller",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/51VwsVJt3uL._AC_SX679_.jpg",
+          "alt": "Xbox Controller"
+        }
+      ],
+      "price": 49.98,
+      "discount": 10,
+      "amount": 11,
+      "category": "Other",
+      "platform": "PS4",
+      "brand": "Nintendo",
+      "isFeatured": false,
+      "rating": 2.4
+    },
+    {
+      "name": "Spider-Man: Miles Morales",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/d/d2/Spider-Man_Miles_Morales_cover.jpg",
+          "alt": "Miles Morales"
+        }
+      ],
+      "price": 458.37,
+      "discount": 30,
+      "amount": 5,
+      "category": "Console",
+      "platform": "PS5",
+      "brand": "Nintendo",
+      "isFeatured": false,
+      "rating": 3.3
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+          "alt": "Cyberpunk 2077"
+        }
+      ],
+      "price": 371.67,
+      "discount": 10,
+      "amount": 93,
+      "category": "Merch",
+      "platform": "All",
+      "brand": "Microsoft",
+      "isFeatured": true,
+      "rating": 4.5
+    },
+    {
+      "name": "Apex Legends T-Shirt",
+      "description": "One of the best-selling games of the decade.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61l-UOxqN5L._AC_UX466_.jpg",
+          "alt": "Apex T-Shirt"
+        }
+      ],
+      "price": 403.78,
+      "discount": 0,
+      "amount": 88,
+      "category": "Game",
+      "platform": "PS4",
+      "brand": "Ubisoft",
+      "isFeatured": true,
+      "rating": 0.6
+    },
+    {
+      "name": "Gaming Chair X1000",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/71xBl8cEOHL._AC_SL1500_.jpg",
+          "alt": "Gaming Chair X1000"
+        }
+      ],
+      "price": 387.25,
+      "discount": 20,
+      "amount": 93,
+      "category": "Game",
+      "platform": "PS4",
+      "brand": "Microsoft",
+      "isFeatured": true,
+      "rating": 1.8
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+          "alt": "Cyberpunk 2077"
+        }
+      ],
+      "price": 349.5,
+      "discount": 30,
+      "amount": 47,
+      "category": "Merch",
+      "platform": "PS4",
+      "brand": "Logitech",
+      "isFeatured": false,
+      "rating": 0.3
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://cdn.cdkeys.com/the-witcher-3-wild-hunt-goty-pc-cover.jpg",
+          "alt": "The Witcher 3 cover"
+        }
+      ],
+      "price": 82.38,
+      "discount": 10,
+      "amount": 67,
+      "category": "Other",
+      "platform": "PS5",
+      "brand": "Sony",
+      "isFeatured": false,
+      "rating": 4.4
+    },
+    {
+      "name": "Razer Kraken Headset",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://assets2.razerzone.com/images/pnx.assets/45e26df6f47cf9a3762c508d57f075e5/razer-kraken-gallery-1.png",
+          "alt": "Razer Kraken"
+        }
+      ],
+      "price": 384.56,
+      "discount": 30,
+      "amount": 72,
+      "category": "Other",
+      "platform": "XBox",
+      "brand": "Razer",
+      "isFeatured": true,
+      "rating": 1.8
+    },
+    {
+      "name": "Apex Legends T-Shirt",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61l-UOxqN5L._AC_UX466_.jpg",
+          "alt": "Apex T-Shirt"
+        }
+      ],
+      "price": 438.62,
+      "discount": 20,
+      "amount": 98,
+      "category": "Other",
+      "platform": "XBox",
+      "brand": "Microsoft",
+      "isFeatured": false,
+      "rating": 3.7
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+          "alt": "Cyberpunk 2077"
+        }
+      ],
+      "price": 399.85,
+      "discount": 20,
+      "amount": 37,
+      "category": "Game",
+      "platform": "PS4",
+      "brand": "Nintendo",
+      "isFeatured": true,
+      "rating": 2.7
+    },
+    {
+      "name": "Nintendo Switch",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61-PblYntsL._AC_SY450_.jpg",
+          "alt": "Nintendo Switch"
+        }
+      ],
+      "price": 492.9,
+      "discount": 20,
+      "amount": 51,
+      "category": "Console",
+      "platform": "Other",
+      "brand": "Ubisoft",
+      "isFeatured": false,
+      "rating": 0.6
+    },
+    {
+      "name": "Fortnite V-Bucks Card",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/81w+3yN2gkL._AC_SL1500_.jpg",
+          "alt": "Fortnite VBucks"
+        }
+      ],
+      "price": 347.61,
+      "discount": 0,
+      "amount": 28,
+      "category": "Game",
+      "platform": "All",
+      "brand": "Sony",
+      "isFeatured": false,
+      "rating": 3.2
+    },
+    {
+      "name": "Spider-Man: Miles Morales",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/d/d2/Spider-Man_Miles_Morales_cover.jpg",
+          "alt": "Miles Morales"
+        }
+      ],
+      "price": 450.39,
+      "discount": 0,
+      "amount": 42,
+      "category": "Game",
+      "platform": "Other",
+      "brand": "Nintendo",
+      "isFeatured": true,
+      "rating": 1.7
+    },
+    {
+      "name": "PlayStation 5 Console",
+      "description": "One of the best-selling games of the decade.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/619BkvKW35L._AC_SX522_.jpg",
+          "alt": "PlayStation 5 Console"
+        }
+      ],
+      "price": 374.89,
+      "discount": 20,
+      "amount": 81,
+      "category": "Merch",
+      "platform": "PS5",
+      "brand": "Nintendo",
+      "isFeatured": true,
+      "rating": 1.8
+    },
+    {
+      "name": "Nintendo Switch",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61-PblYntsL._AC_SY450_.jpg",
+          "alt": "Nintendo Switch"
+        }
+      ],
+      "price": 273.78,
+      "discount": 0,
+      "amount": 37,
+      "category": "Accessory",
+      "platform": "XBox",
+      "brand": "Logitech",
+      "isFeatured": true,
+      "rating": 4.6
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+          "alt": "Cyberpunk 2077"
+        }
+      ],
+      "price": 230.29,
+      "discount": 30,
+      "amount": 38,
+      "category": "Other",
+      "platform": "Other",
+      "brand": "Nintendo",
+      "isFeatured": true,
+      "rating": 3.2
+    },
+    {
+      "name": "God of War Ragnarok",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9a/God_of_War_Ragnar%C3%B6k_cover.jpg",
+          "alt": "God of War Ragnarok"
+        }
+      ],
+      "price": 30.56,
+      "discount": 30,
+      "amount": 86,
+      "category": "Merch",
+      "platform": "Other",
+      "brand": "Razer",
+      "isFeatured": false,
+      "rating": 2.6
+    },
+    {
+      "name": "Halo Infinite",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Halo_Infinite.png",
+          "alt": "Halo Infinite Cover"
+        }
+      ],
+      "price": 45.14,
+      "discount": 30,
+      "amount": 32,
+      "category": "Console",
+      "platform": "PS5",
+      "brand": "Ubisoft",
+      "isFeatured": true,
+      "rating": 2.4
+    },
+    {
+      "name": "Razer Kraken Headset",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://assets2.razerzone.com/images/pnx.assets/45e26df6f47cf9a3762c508d57f075e5/razer-kraken-gallery-1.png",
+          "alt": "Razer Kraken"
+        }
+      ],
+      "price": 168.96,
+      "discount": 20,
+      "amount": 7,
+      "category": "Game",
+      "platform": "All",
+      "brand": "Nintendo",
+      "isFeatured": false,
+      "rating": 3.8
+    },
+    {
+      "name": "Gaming Chair X1000",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/71xBl8cEOHL._AC_SL1500_.jpg",
+          "alt": "Gaming Chair X1000"
+        }
+      ],
+      "price": 351.65,
+      "discount": 50,
+      "amount": 4,
+      "category": "Other",
+      "platform": "Other",
+      "brand": "Microsoft",
+      "isFeatured": true,
+      "rating": 0.6
+    },
+    {
+      "name": "Razer Kraken Headset",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://assets2.razerzone.com/images/pnx.assets/45e26df6f47cf9a3762c508d57f075e5/razer-kraken-gallery-1.png",
+          "alt": "Razer Kraken"
+        }
+      ],
+      "price": 236.09,
+      "discount": 20,
+      "amount": 33,
+      "category": "Other",
+      "platform": "Other",
+      "brand": "Sony",
+      "isFeatured": false,
+      "rating": 0.2
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Assassin%27s_Creed_Valhalla_cover.jpg",
+          "alt": "AC Valhalla"
+        }
+      ],
+      "price": 28.71,
+      "discount": 0,
+      "amount": 10,
+      "category": "Other",
+      "platform": "PS4",
+      "brand": "Sony",
+      "isFeatured": false,
+      "rating": 1.3
+    },
+    {
+      "name": "Elden Ring",
+      "description": "Top-tier equipment for competitive gaming.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
+          "alt": "Elden Ring Cover"
+        }
+      ],
+      "price": 51.22,
+      "discount": 30,
+      "amount": 22,
+      "category": "Accessory",
+      "platform": "PS4",
+      "brand": "Sony",
+      "isFeatured": false,
+      "rating": 1.7
+    },
+    {
+      "name": "Fortnite V-Bucks Card",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/81w+3yN2gkL._AC_SL1500_.jpg",
+          "alt": "Fortnite VBucks"
+        }
+      ],
+      "price": 423.42,
+      "discount": 10,
+      "amount": 14,
+      "category": "Game",
+      "platform": "PS5",
+      "brand": "Nintendo",
+      "isFeatured": true,
+      "rating": 1.3
+    },
+    {
+      "name": "Spider-Man: Miles Morales",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/d/d2/Spider-Man_Miles_Morales_cover.jpg",
+          "alt": "Miles Morales"
+        }
+      ],
+      "price": 153.06,
+      "discount": 10,
+      "amount": 32,
+      "category": "Console",
+      "platform": "XBox",
+      "brand": "Nintendo",
+      "isFeatured": true,
+      "rating": 2.4
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Assassin%27s_Creed_Valhalla_cover.jpg",
+          "alt": "AC Valhalla"
+        }
+      ],
+      "price": 468.22,
+      "discount": 50,
+      "amount": 1,
+      "category": "Console",
+      "platform": "XBox",
+      "brand": "Logitech",
+      "isFeatured": false,
+      "rating": 4.2
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "description": "A must-have for every true gamer.",
+      "images": [
+        {
+          "url": "https://cdn.cdkeys.com/the-witcher-3-wild-hunt-goty-pc-cover.jpg",
+          "alt": "The Witcher 3 cover"
+        }
+      ],
+      "price": 199.75,
+      "discount": 10,
+      "amount": 60,
+      "category": "Console",
+      "platform": "Other",
+      "brand": "Nintendo",
+      "isFeatured": true,
+      "rating": 4.2
+    },
+    {
+      "name": "Fortnite V-Bucks Card",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/81w+3yN2gkL._AC_SL1500_.jpg",
+          "alt": "Fortnite VBucks"
+        }
+      ],
+      "price": 214.21,
+      "discount": 50,
+      "amount": 31,
+      "category": "Other",
+      "platform": "PS4",
+      "brand": "Razer",
+      "isFeatured": true,
+      "rating": 1.5
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+          "alt": "Cyberpunk 2077"
+        }
+      ],
+      "price": 37.26,
+      "discount": 0,
+      "amount": 13,
+      "category": "Console",
+      "platform": "All",
+      "brand": "Logitech",
+      "isFeatured": false,
+      "rating": 3.2
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Assassin%27s_Creed_Valhalla_cover.jpg",
+          "alt": "AC Valhalla"
+        }
+      ],
+      "price": 454.93,
+      "discount": 30,
+      "amount": 71,
+      "category": "Other",
+      "platform": "PC",
+      "brand": "Ubisoft",
+      "isFeatured": false,
+      "rating": 1.2
+    },
+    {
+      "name": "Fortnite V-Bucks Card",
+      "description": "Experience immersive gameplay with stunning visuals.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/81w+3yN2gkL._AC_SL1500_.jpg",
+          "alt": "Fortnite VBucks"
+        }
+      ],
+      "price": 56.79,
+      "discount": 30,
+      "amount": 33,
+      "category": "Console",
+      "platform": "All",
+      "brand": "Razer",
+      "isFeatured": true,
+      "rating": 3.1
+    },
+    {
+      "name": "God of War Ragnarok",
+      "description": "Perfect for both casual and professional gamers.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9a/God_of_War_Ragnar%C3%B6k_cover.jpg",
+          "alt": "God of War Ragnarok"
+        }
+      ],
+      "price": 93.05,
+      "discount": 20,
+      "amount": 86,
+      "category": "Other",
+      "platform": "All",
+      "brand": "Ubisoft",
+      "isFeatured": false,
+      "rating": 2.3
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "description": "One of the best-selling games of the decade.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+          "alt": "Cyberpunk 2077"
+        }
+      ],
+      "price": 401.7,
+      "discount": 30,
+      "amount": 64,
+      "category": "Console",
+      "platform": "PS5",
+      "brand": "Nintendo",
+      "isFeatured": false,
+      "rating": 2.0
+    },
+    {
+      "name": "Elden Ring",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
+          "alt": "Elden Ring Cover"
+        }
+      ],
+      "price": 420.69,
+      "discount": 10,
+      "amount": 83,
+      "category": "Merch",
+      "platform": "PS4",
+      "brand": "Sony",
+      "isFeatured": true,
+      "rating": 1.6
+    },
+    {
+      "name": "PlayStation 5 Console",
+      "description": "Official merchandise with high-quality material.",
+      "images": [
+        {
+          "url": "https://m.media-amazon.com/images/I/619BkvKW35L._AC_SX522_.jpg",
+          "alt": "PlayStation 5 Console"
+        }
+      ],
+      "price": 289.38,
+      "discount": 30,
+      "amount": 30,
+      "category": "Merch",
+      "platform": "Other",
+      "brand": "Razer",
+      "isFeatured": true,
+      "rating": 4.1
+    }
+  ]

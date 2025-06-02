@@ -1,6 +1,9 @@
 const Order = require("../models/Order");
 const Product = require("../models/Product");
 const Cart = require("../models/Cart");
+const { sendOrderConfirmation,
+    sendOrderCancellationNotification,
+    sendOrderDeliveryNotification } = require("../utils/sendEmail");
 const stripe = require('stripe')(process.env.STRIPE_SK);
 
 exports.createOrder = async (req, res) => {
@@ -29,6 +32,8 @@ exports.createOrder = async (req, res) => {
             paymentIntentId,
             status,
         });
+
+        await sendOrderConfirmation(newOrder, cartItems);
 
         await newOrder.save();
         res.status(201).json({ success: true, order: newOrder });
@@ -98,6 +103,7 @@ exports.updateOrderDelivery = async (req, res) => {
         order.isDelivered = true;
         order.status = 'paid';
         order.save();
+        sendOrderDeliveryNotification(order);
         res.json(order);
     } catch (err) {
         res.status(500).json({ message: "Failed to update order", error: err.message });
@@ -114,11 +120,11 @@ exports.cancelOrder = async (req, res) => {
         }
 
         if (order.paymentIntentId) {
-            // Refund through Stripe
+
             await stripe.refunds.create({ payment_intent: order.paymentIntentId });
         }
 
-        // Restore product stock (if needed)
+
         for (let item of order.items) {
             const product = await Product.findById(item.product);
             if (product) {
@@ -128,6 +134,8 @@ exports.cancelOrder = async (req, res) => {
         }
 
         order.status = "cancelled";
+        sendOrderCancellationNotification(order);
+
         await order.save();
 
         res.json({ message: "Order cancelled and refunded", order });

@@ -5,6 +5,7 @@ const fs = require("fs");
 exports.getAllItems = async (req, res) => {
   try {
     const items = await BarItem.find();
+  
     res.json(items);
   } catch (err) {
     res.status(500).json({ error: "Failed to fetch items", details: err });

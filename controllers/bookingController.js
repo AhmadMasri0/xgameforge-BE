@@ -9,7 +9,6 @@ exports.getUserBookings = async (req, res) => {
         const now = dayjs();
 
         const updatedBookings = bookings.map(booking => {
-            // booking.status === "upcoming" && console.log(dayjs(`${booking.date} ${booking.startTime}`), (now))
             if (
                 booking.status === "upcoming" &&
                 dayjs(`${booking.date} ${booking.endTime}`).isBefore(now)
@@ -92,7 +91,6 @@ exports.checkAvailability = async (req, res) => {
     }
 };
 
-// Create booking (POST /api/bookings)
 exports.createBooking = async (req, res) => {
     try {
         const { sessionType, date, startTime, endTime } = req.body;
@@ -132,7 +130,6 @@ exports.cancelBooking = async (req, res) => {
     res.json({ message: "Booking cancelled", booking });
 };
 
-// Admin: get all bookings
 exports.getAllBookings = async (req, res) => {
     const bookings = await Booking.find().populate("user", "username email").sort({ date: 1, startTime: 1 });
 
@@ -158,7 +155,6 @@ exports.getAllBookings = async (req, res) => {
     res.status(200).json(updatedBookings);
 };
 
-// Admin: delete booking
 exports.deleteBooking = async (req, res) => {
     const booking = await Booking.findById(req.params.id);
     if (!booking) return res.status(404).json({ message: "Booking not found" });

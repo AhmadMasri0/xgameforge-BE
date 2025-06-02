@@ -3,7 +3,6 @@ const User = require("../models/User");
 
 const checkToken = async (req, res, next) => {
 
-    // console.log('token')
     const authHeader = req.headers.authorization;
     if (!authHeader || !authHeader.startsWith("Bearer ")) {
         req.user = null;
@@ -23,7 +22,6 @@ const checkToken = async (req, res, next) => {
 };
 
 const checkAdmin = (req, res, next) => {
-    // console.log(req.user)
 
     try {
         if (!req.user?.isAdmin) {

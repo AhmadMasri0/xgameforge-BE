@@ -68,8 +68,7 @@ exports.getFeaturedGames = async (req, res) => {
         if (!products) {
             return res.status(404).json({ message: 'Product not found' });
         }
-        // console.log(products);
-        res.json(products);
+        res.json(products.slice(0, 3));
     } catch (error) {
         console.error('Error fetching product:', error);
         res.status(500).json({ error });
@@ -80,7 +79,6 @@ exports.updateProduct = async (req, res) => {
     try {
         const removedImages = req.body.removedImages ? JSON.parse(req.body.removedImages) : [];
         const product = await Product.findById(req.params.id);
-        // console.log(req.body)
         if (!product) return res.status(404).json({ error: 'Product not found' });
 
         removedImages.forEach(image => {
@@ -88,9 +86,15 @@ exports.updateProduct = async (req, res) => {
 
             if (idx !== -1) {
                 product.images.splice(idx, 1);
-                const filePath = path.join(__dirname, '../uploads', image.url.split('/uploads/')[1]);
-                if (fs.existsSync(filePath)) {
-                    fs.unlinkSync(filePath);
+                console.log(image.url.split('/uploads/'))
+                const tmp = image.url.split('/uploads/');
+                if (tmp.length > 1) {
+                    const filePath = path.join(__dirname, '../uploads', image.url.split('/uploads/')[1]);
+
+                    if (fs.existsSync(filePath)) {
+
+                        fs.unlinkSync(filePath);
+                    }
                 }
             }
         });
@@ -120,19 +124,33 @@ exports.updateProduct = async (req, res) => {
         await product.save();
         res.json({ success: true, product });
     } catch (e) {
-        // console.log(e);
         res.status(500).json({ message: "Failed to Update product", error: e });
 
     }
 }
 
-
 exports.deleteProduct = async (req, res) => {
     try {
-        const deleted = await Product.findByIdAndDelete(req.params.id);
-        if (!deleted) return res.status(404).json({ message: "Product not found" });
-        res.status(200).json({ message: "Product deleted" });
+        const product = await Product.findById(req.params.id);
+        if (!product) return res.status(404).json({ message: "Product not found" });
+
+        // Remove image files from the /uploads directory
+        product.images.forEach(img => {
+            if (img.url.startsWith('/uploads/')) {
+                const imagePath = path.join(__dirname, '../', img.url);
+                if (fs.existsSync(imagePath)) {
+                    fs.unlinkSync(imagePath);
+                }
+            }
+        });
+
+        // Delete the product document
+        await product.deleteOne();
+
+        res.status(200).json({ message: "Product and images deleted successfully." });
     } catch (err) {
-        res.status(500).json({ message: "Failed to delete product", error: err });
+        console.error(err);
+        res.status(500).json({ message: "Failed to delete product", error: err.message });
     }
 };
+

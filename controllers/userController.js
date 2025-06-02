@@ -22,7 +22,7 @@ exports.changePassword = async (req, res) => {
 
         const hashedPassword = await bcrypt.hash(newPassword, 10);
 
-        user.password = hashedPassword; // Will be hashed by pre-save hook
+        user.password = hashedPassword; 
         await user.save();
 
         res.json({ success: true, message: "Password updated successfully." });
