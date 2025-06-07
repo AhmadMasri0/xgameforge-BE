@@ -130,6 +130,18 @@ exports.cancelBooking = async (req, res) => {
     res.json({ message: "Booking cancelled", booking });
 };
 
+exports.cancelBookingByAdmin = async (req, res) => {
+    const booking = await Booking.findById(req.params.id);
+    if (!booking) {
+        return res.status(404).json({ message: "Booking not found" });
+    }
+
+    booking.status = "cancelled";
+    await booking.save();
+    res.json({ message: "Booking cancelled", booking });
+};
+
+
 exports.getAllBookings = async (req, res) => {
     const bookings = await Booking.find().populate("user", "username email").sort({ date: 1, startTime: 1 });
 

@@ -1,6 +1,7 @@
 const Product = require("../models/Product");
 const path = require('path');
 const fs = require('fs');
+const { deleteFromS3 } = require("../middlewares/deleteFromS3");
 
 exports.getAllProducts = async (req, res) => {
     try {
@@ -25,7 +26,7 @@ exports.getSearchedProducts = async (req, res) => {
 exports.createProduct = async (req, res) => {
     try {
         const images = req.files.map(file => ({
-            url: `/uploads/${file.filename}`,
+            url: file.location,
             alt: file.originalname
         }));
 
@@ -36,7 +37,6 @@ exports.createProduct = async (req, res) => {
 
         const product = new Product(productData);
         const saved = await product.save();
-        console.log(saved);
         res.status(201).json(saved);
     } catch (err) {
         console.error(err);
@@ -63,8 +63,7 @@ exports.getProductById = async (req, res) => {
 exports.getFeaturedGames = async (req, res) => {
 
     try {
-        const products = await Product.find({ isFeatured: true });
-
+        const products = await Product.find({ isFeatured: true }).sort({rating: -1});
         if (!products) {
             return res.status(404).json({ message: 'Product not found' });
         }
@@ -81,28 +80,24 @@ exports.updateProduct = async (req, res) => {
         const product = await Product.findById(req.params.id);
         if (!product) return res.status(404).json({ error: 'Product not found' });
 
-        removedImages.forEach(image => {
-            const idx = product.images.findIndex((pi) => pi.url === image.url)
-
+        const deletePromises = removedImages.map(async (image) => {
+            const idx = product.images.findIndex((pi) => pi.url === image.url);
             if (idx !== -1) {
-                product.images.splice(idx, 1);
-                console.log(image.url.split('/uploads/'))
-                const tmp = image.url.split('/uploads/');
-                if (tmp.length > 1) {
-                    const filePath = path.join(__dirname, '../uploads', image.url.split('/uploads/')[1]);
-
-                    if (fs.existsSync(filePath)) {
-
-                        fs.unlinkSync(filePath);
-                    }
+                try {
+                    await deleteFromS3(image.url);
+                    product.images.splice(idx, 1);
+                } catch (e) {
+                    console.error(`Failed to delete image ${image.url}:`, e);
                 }
             }
         });
 
+        await Promise.all(deletePromises);
+
         if (req.files) {
 
             const newNames = req.files.map(file => ({
-                url: `/uploads/${file.filename}`,
+                url: file.location,
                 alt: file.originalname
             }));
             product.images.push(...newNames);
@@ -134,17 +129,11 @@ exports.deleteProduct = async (req, res) => {
         const product = await Product.findById(req.params.id);
         if (!product) return res.status(404).json({ message: "Product not found" });
 
-        // Remove image files from the /uploads directory
-        product.images.forEach(img => {
-            if (img.url.startsWith('/uploads/')) {
-                const imagePath = path.join(__dirname, '../', img.url);
-                if (fs.existsSync(imagePath)) {
-                    fs.unlinkSync(imagePath);
-                }
-            }
-        });
+        const deletePromises = product.images.map(img =>
+            deleteFromS3(img.url).catch(e => console.error(e))
+        );
+        await Promise.all(deletePromises);
 
-        // Delete the product document
         await product.deleteOne();
 
         res.status(200).json({ message: "Product and images deleted successfully." });
