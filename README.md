@@ -39,13 +39,13 @@ This is the backend API server for **XGameForge**, a cloud-deployed gaming cente
 
 ```bash
 xgameforge-backend/
-├── controllers/          # All business logic (products, orders, bookings, etc.)
-├── models/               # Mongoose schemas
-├── routes/               # RESTful route definitions
-├── middlewares/          # Auth & error handlers
-├── utils/                # Email, Stripe & S3 utilities
-├── uploads/              # (Deprecated) For local image storage
-├── app.js / index.js     # Express server entry point
+├── controllers/         
+├── models/              
+├── routes/              
+├── middlewares/         
+├── utils/               
+├── uploads/             
+├── index.js             
 └── package.json
 ```
 
